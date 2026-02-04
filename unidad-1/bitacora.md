@@ -1,11 +1,40 @@
 # Unidad 1
 
-## Bitácora de proceso de aprendizaje
-### ACTIVIDAD 1
-Se suman los valores que se asignaron, es decir, 1 y 2, que da un total de 3. El anterior valor es es que se almacena en la dirección 16 de la RAM.
-
 ## Bitácora de aplicación 
+### ACTIVIDAD 4
+Implementando un ciclo simple
+Crea un programa que use un ciclo para sumar los números del 1 al 5 y guarde el resultado en la dirección de memoria 12.
+```asm
+@5
+D=A
+@13
+M=D        // RAM[13] = 5  (contador)
 
+@0
+D=A
+@12
+M=D        // RAM[12] = 0  (suma)
+
+(LOOP)
+@13
+D=M
+@END
+D;JEQ
+
+@12
+M=M+D
+
+@13
+M=M-1
+
+@LOOP
+0;JMP
+
+(END)
+@END
+0;JMP
+```
+<img width="1105" height="401" alt="image" src="https://github.com/user-attachments/assets/7bb6d9b5-7616-4e47-9d9f-849ea1232a89" />
 
 ## Bitácora de reflexión
 ### ACTIVIDAD 5
@@ -14,4 +43,5 @@ Se suman los valores que se asignaron, es decir, 1 y 2, que da un total de 3. El
 
 
 
-AGREGAR CAPTURA DE PANTALLA DEL PROGRAMA 4 EN EL SIMULADOR HACK
+
+
