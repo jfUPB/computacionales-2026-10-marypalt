@@ -39,7 +39,13 @@ M=M-1
 ## Bitácora de reflexión
 ### ACTIVIDAD 5
 1. El Program Counter se encarga de indicar el número de la instrucción o paso en el que se encuentra el programa, es decir, va numerando las lineas que lee.
-2. Este carga el número en el registro A, indica una variable para saber qué guarda en la memoria o una etiqueta. En cambio, la instrucción C es la de trabajo, resuelve las instrucciones y variables indicadas (Cálculos, escribir en memoria, saltos y mover datos). 
+2. Este carga el número en el registro A, indica una variable para saber qué guarda en la memoria o una etiqueta. En cambio, la instrucción C es la de trabajo, resuelve las instrucciones y variables indicadas (Cálculos, escribir en memoria, saltos y mover datos).
+3. A	apunta direcciones.
+   D	guarda valores temporales.
+   ALU	calcula.
+   RAM	guarda datos.
+4. D=M → traer dato desde memoria. M=D → guardar dato en memoria
+
 
 
 
