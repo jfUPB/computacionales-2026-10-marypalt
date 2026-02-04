@@ -9,10 +9,11 @@
 
 ### Actividad 3
 <img width="509" height="522" alt="image" src="https://github.com/user-attachments/assets/f734c1b1-3c79-475e-a220-8c8474ee32f9" />
-
+Fotos del código en el celular, copiar en el ensamblador y tomarle captura. (Ref: 4 Feb)
 
 ## Bitácora de aplicación 
 
 
 
 ## Bitácora de reflexión
+
