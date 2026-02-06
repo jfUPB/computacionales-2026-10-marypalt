@@ -12,8 +12,12 @@
 Fotos del código en el celular, copiar en el ensamblador y tomarle captura. (Ref: 4 Feb)
 
 ## Bitácora de aplicación 
+### Actividad 5 
+Traducción a Assembler
+<img width="465" height="493" alt="image" src="https://github.com/user-attachments/assets/fd7cdab8-6b68-4541-b12c-9d18c625c9fb" />
 
 
 
 ## Bitácora de reflexión
+
 
