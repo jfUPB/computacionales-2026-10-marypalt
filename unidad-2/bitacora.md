@@ -13,11 +13,40 @@ Fotos del código en el celular, copiar en el ensamblador y tomarle captura. (Re
 
 ## Bitácora de aplicación 
 ### Actividad 5 
-Traducción a Assembler
+#### Traducción 1 a Assembler
 <img width="465" height="493" alt="image" src="https://github.com/user-attachments/assets/fd7cdab8-6b68-4541-b12c-9d18c625c9fb" />
+#### Traducción 1 a Assembler
+````asm
+// int a = 10;
 
+@10
+D=A
+@a
+M=D
+// int b = 5;
+
+@5
+D=A
+@b
+M=D
+// int *p;
+// p = &a;
+
+@a 
+D=A 
+@p
+M=D
+// b = *p;
+
+@p
+A=M // A = 16
+D=M // D = contenido de la dirección 16 --> 10
+@b // se guarda en a la dirección de b --> 17
+M=D // Guardando en la 17 (que es b), el 10 que tengo en D
+````
 
 
 ## Bitácora de reflexión
+
 
 
