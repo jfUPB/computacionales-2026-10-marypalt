@@ -15,7 +15,8 @@ Fotos del código en el celular, copiar en el ensamblador y tomarle captura. (Re
 ### Actividad 5 
 #### Traducción 1 a Assembler
 <img width="465" height="493" alt="image" src="https://github.com/user-attachments/assets/fd7cdab8-6b68-4541-b12c-9d18c625c9fb" />
-#### Traducción 1 a Assembler
+
+#### Traducción 2 a Assembler
 
 ```asm
 // int a = 10;
@@ -48,6 +49,7 @@ M=D // Guardando en la 17 (que es b), el 10 que tengo en D
 
 
 ## Bitácora de reflexión
+
 
 
 
